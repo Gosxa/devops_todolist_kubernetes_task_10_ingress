@@ -1,6 +1,6 @@
 1) Setup (kind + ingress)
 # Create kind cluster with host ports mapped to 80/443
-cat > kind-config.yaml <<'YAML'
+cat > cluster.yml <<'YML'
 kind: Cluster
 apiVersion: kind.x-k8s.io/v1alpha4
 nodes:
