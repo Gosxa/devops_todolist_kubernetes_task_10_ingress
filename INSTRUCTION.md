@@ -14,7 +14,7 @@ nodes:
     protocol: TCP
 YAML
 
-kind create cluster --name todoapp --config kind-config.yaml
+kind create cluster --name todoapp --config cluster.yml
 
 # Install NGINX Ingress (kind provider)
 kubectl apply -f https://raw.githubusercontent.com/kubernetes/ingress-nginx/controller-v1.11.3/deploy/static/provider/kind/deploy.yaml
